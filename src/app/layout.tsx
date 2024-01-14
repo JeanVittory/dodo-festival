@@ -4,6 +4,7 @@ import './globals.css'
 
 import Header   from '@/components/header/header'
 import Marquee from '@/components/marquee/marquee'
+import Footer from '@/components/Footer/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <div>
           <Header/> 
           {children}
+          <Footer/>
         </div>
       </body>
     </html>
