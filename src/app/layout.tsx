@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
+import Header   from '@/components/header/header'
+import Marquee from '@/components/marquee/marquee'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -16,7 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black-100`}>{children}</body>
+      <body className={`${inter.className} bg-dodoBlack-100 `}>
+        <Marquee/>
+        <div className='p-4'>
+          <Header/>
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
