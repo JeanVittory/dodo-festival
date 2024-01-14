@@ -11,6 +11,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import Link from "next/link";
 
 
 
@@ -23,9 +24,9 @@ export default function Dropdown(){
             </DropdownMenuTrigger>
             <DropdownMenuContent className={`${nunito800.className} h-72 bg-dodoBlack-100 text-dodoWhite-100  p-4  rounded-xl flex flex-col justify-center items-center`}>
                 <div className="h-[90%] w-full flex flex-col justify-center items-center  divide-y">
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5">PROGRAMACION</DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5">TALLERES</DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5">CHARLAS</DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/programacion'>PROGRAMACION</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/talleres'>TALLERES</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href="/charlas">CHARLAS</Link></DropdownMenuLabel>
                 </div>
 
                 <DropdownMenuItem className="h-[10%] items-end gap-x-4">

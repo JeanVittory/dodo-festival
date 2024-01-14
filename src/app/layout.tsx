@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-dodoBlack-100 `}>
         <Marquee/>
         <div className='p-4'>
-          <Header/>
+          <Header/> 
           {children}
         </div>
       </body>
