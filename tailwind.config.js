@@ -25,7 +25,7 @@ module.exports = {
           "400" : "#afb1ae"
         },
         dodoBlack: {
-          "100" : "#191923",
+          "100" : "#161618",
         },
         dodoRed : {
           "100": "#912F40"
@@ -66,6 +66,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      animation:{
+        'marquee': "marquee 30.5s infinite linear"
       },
       borderRadius: {
         lg: "var(--radius)",
