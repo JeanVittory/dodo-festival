@@ -1,14 +1,11 @@
-import { poppins700 } from "@/lib/fonts"
-import Settings from "./settings/page"
-
+import HeroImageHome from "@/components/heroImageHome/heroImageHome";
+import Sponsors from "@/components/sponsors/sponsors";
 
 export default function Home() {
   return (
     <main>
-      <div className="text-slate-100">
-        Este es el home
-      </div>
-  
+      <HeroImageHome/>
+      <Sponsors/>
     </main>
   )
 }
