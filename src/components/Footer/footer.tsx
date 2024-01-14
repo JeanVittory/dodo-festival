@@ -4,7 +4,7 @@ import Goverment from "../goverment/goverment"
 
 export default function Footer() {
    return (
-    <footer className="flex justify-around my-6">
+    <footer className="flex flex-col items-center gap-y-4 md:flex-row justify-around my-6">
         <Socials/>
         <Label/>
         <Goverment/>
