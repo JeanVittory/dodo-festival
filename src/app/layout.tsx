@@ -20,7 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <link rel="icon" href="/images/logo-dodo.png" sizes="any" />
       <body className={`${inter.className} bg-dodoBlack-100`}>
         <Marquee/>
         <div>
