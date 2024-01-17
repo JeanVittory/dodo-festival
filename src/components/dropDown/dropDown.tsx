@@ -13,9 +13,6 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Link from "next/link";
 
-
-
-
 export default function Dropdown(){
     return (
     <DropdownMenu modal={false}>
