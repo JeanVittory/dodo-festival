@@ -5,6 +5,7 @@ import './globals.css'
 import Header   from '@/components/header/header'
 import Marquee from '@/components/marquee/marquee'
 import Footer from '@/components/Footer/footer'
+import { Providers } from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,8 +24,10 @@ export default function RootLayout({
       <body className={`${inter.className} bg-dodoBlack-100`}>
         <Marquee/>
         <div>
-          <Header/> 
-          {children}
+          <Header/>
+          <Providers>
+            {children}
+          </Providers> 
           <Footer/>
         </div>
       </body>
