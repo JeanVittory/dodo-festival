@@ -34,6 +34,12 @@ export const poppins400 = Poppins({
     weight: "400"
 })
 
+export const poppins500 = Poppins({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: "500"
+})
+
 export const poppins700 = Poppins({
     subsets: ['latin'],
     display: 'swap',

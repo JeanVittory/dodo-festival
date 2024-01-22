@@ -1,0 +1,200 @@
+[
+    {
+        "eventName": "Romeo y Julieta",
+        "author": "William Shakespeare",
+        "date": "2024-03-18T10:00:00Z",
+        "place": "Casa Mercedes",
+        "price": 20000,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Hamlet",
+        "author": "Christopher Marlowe",
+        "date": "2024-03-18T16:00:00Z",
+        "place": "Teatro Nacional",
+        "price": 25000,
+        "description": "A classic tragedy exploring the complexities of human existence and political intrigue.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "La Traviata",
+        "author": "Giuseppe Verdi",
+        "date": "2024-03-18T20:00:00Z",
+        "place": "Opera House",
+        "price": 18000,
+        "description": "An opera masterpiece that tells a tale of love, sacrifice, and societal expectations.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Romeo y Julieta",
+        "author": "William Shakespeare",
+        "date": "2024-03-19T10:00:00Z",
+        "place": "Casa Mercedes",
+        "price": 20000,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Macbeth",
+        "author": "George Bernard Shaw",
+        "date": "2024-03-19T16:00:00Z",
+        "place": "Teatro Globe",
+        "price": 22000,
+        "description": "A reimagined version of the classic tragedy with a modern twist.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "The Importance of Being Earnest",
+        "author": "Oscar Wilde",
+        "date": "2024-03-19T20:00:00Z",
+        "place": "Royal Theatre",
+        "price": 18000,
+        "description": "A comedic masterpiece exploring identity, love, and societal expectations.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Hamlet",
+        "author": "Christopher Marlowe",
+        "date": "2024-03-20T09:00:00Z",
+        "place": "Teatro Nacional",
+        "price": 25000,
+        "description": "A classic tragedy exploring the complexities of human existence and political intrigue.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Othello",
+        "author": "Jane Austen",
+        "date": "2024-03-20T15:00:00Z",
+        "place": "City Playhouse",
+        "price": 21000,
+        "description": "A tale of jealousy, betrayal, and tragic consequences in the face of love.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "A Midsummer Night's Dream",
+        "author": "George Bernard Shaw",
+        "date": "2024-03-20T19:00:00Z",
+        "place": "Outdoor Amphitheater",
+        "price": 19000,
+        "description": "A whimsical comedy set in a magical forest, where love takes unexpected turns.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "La Traviata",
+        "author": "Giuseppe Verdi",
+        "date": "2024-03-21T10:00:00Z",
+        "place": "Opera House",
+        "price": 18000,
+        "description": "An opera masterpiece that tells a tale of love, sacrifice, and societal expectations.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "The Crucible",
+        "author": "Arthur Miller",
+        "date": "2024-03-21T16:00:00Z",
+        "place": "Black Box Theater",
+        "price": 23000,
+        "description": "A powerful drama exploring the Salem witch trials and the consequences of mass hysteria.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "The Phantom of the Opera",
+        "author": "Andrew Lloyd Webber",
+        "date": "2024-03-21T20:00:00Z",
+        "place": "Grand Opera House",
+        "price": 26000,
+        "description": "A mesmerizing musical about love, obsession, and the mysterious Phantom.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "The Tempest",
+        "author": "William Shakespeare",
+        "date": "2024-03-22T10:00:00Z",
+        "place": "Island Theater",
+        "price": 20000,
+        "description": "Shakespeare's magical play set on a remote island, exploring themes of power and forgiveness.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Death of a Salesman",
+        "author": "Arthur Miller",
+        "date": "2024-03-22T16:00:00Z",
+        "place": "Downtown Playhouse",
+        "price": 24000,
+        "description": "A classic American drama portraying the struggles of the American Dream.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Les Misérables",
+        "author": "Claude-Michel Schönberg",
+        "date": "2024-03-22T21:00:00Z",
+        "place": "National Theatre",
+        "price": 28000,
+        "description": "A musical epic set in post-revolutionary France, exploring themes of justice and redemption.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "A Streetcar Named Desire",
+        "author": "Tennessee Williams",
+        "date": "2024-03-23T08:00:00Z",
+        "place": "Southern Playhouse",
+        "price": 22000,
+        "description": "A gripping drama unfolding the complexities of desire, madness, and societal expectations.",
+        "type": "play",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "Twelfth Night",
+        "author": "William Shakespeare",
+        "date": "2024-03-23T15:00:00Z",
+        "place": "Shakespearean Globe",
+        "price": 19000,
+        "description": "A comedic play of mistaken identities, love, and the revelry of a twelfth-night celebration.",
+        "type": "talk",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    },
+    {
+        "eventName": "The Glass Menagerie",
+        "author": "Tennessee Williams",
+        "date": "2024-03-23T20:00:00Z",
+        "place": "Intimate Theater",
+        "price": 21000,
+        "description": "A poignant drama exploring family dynamics and the fragility of dreams.",
+        "type": "workshop",
+        "picture": "/imagen-2-2024-03-18.jpg",
+        "pictureAlt": "Alternative Text"
+    }
+]
