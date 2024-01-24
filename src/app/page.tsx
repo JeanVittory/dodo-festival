@@ -4,6 +4,7 @@ import Sponsors from "@/components/sponsors/sponsors";
 
 import FESTIVAL_DATES from "../database/FESTIVAL_DATES.json"
 import EVENTS from "../database/EVENTS.json"
+import Accordion_ from "@/components/acorddion/accordion";
 
 export default function Home() {
   const { dates } = FESTIVAL_DATES
@@ -13,6 +14,8 @@ export default function Home() {
       <HeroImageHome/>
       <Sponsors/>
       <FestivalDates dates={ dates } events={ EVENTS }/>
+      <Accordion_/>
+
     </main>
   )
 }
