@@ -41,17 +41,17 @@ export default function FestivalDates({ dates, events }: IFestivalDates){
                 return (
                     <article key={date.day} className="flex justify-center"> 
                         <h2 className={`${poppins700.className} text-8xl text-dodoOrange-100`}>{date.day}</h2>
-                        <div className="self-end">
+                        <div className="self-end ">
                             <button onClick={onOpen} className='underline underline-offset-2 text-xs'>HORARIOS</button>
-                            <Modal isOpen={isOpen} onClose={onClose} size='xs' isCentered>
+                            <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} size='xs' isCentered >
                                 <ModalOverlay />
                                 <ModalContent>
                                     <ModalBody className='bg-dodoBlack-100 text-dodoWhite-100'>
                                         <Carousel>
                                             <CarouselContent>
                                                 <CarouselItem>
-                                                    <section className="flex flex-col">
-                                                        <h3 className={`${poppins500.className} text-center`}>MAÑANA</h3>
+                                                    <section className="flex flex-col ">
+                                                        <h3 className={`${poppins500.className} text-center m-0`}>MAÑANA</h3>
                                                         {!morningDatesResult ? (
                                                             <div>No hay eventos</div>
 
