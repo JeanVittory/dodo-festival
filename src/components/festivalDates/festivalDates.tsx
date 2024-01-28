@@ -40,7 +40,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates){
             {formattedDates.map(date => {
                 return (
                     <article key={date.day} className="flex justify-center"> 
-                        <h2 className={`${poppins700.className} text-8xl text-dodoOrange-100`}>{date.day}</h2>
+                        <h2 className={`${poppins700.className} text-8xl text-[#EF8275]`}>{date.day}</h2>
                         <div className="self-end ">
                             <button onClick={onOpen} className='underline underline-offset-2 text-xs'>HORARIOS</button>
                             <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} size='xs' isCentered >
