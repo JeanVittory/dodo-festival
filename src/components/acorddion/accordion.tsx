@@ -16,7 +16,7 @@ interface IAccordion {
 export default function Accordion ({ image }:IAccordion) {
     return (
         <div className={`max-w-screen-xl my-14 mx-auto ${image ? 'flex flex-col items-center md:flex-row': ''}`} >
-            {image && <Image src={`/static/${image}`} alt='image accordion' width={800} height={600} className='max-w-full md:max-w-md lg:max-w-lg'/>}
+            {image && <Image src={`static/${image}`} alt='image accordion' width={800} height={600} className='max-w-full md:max-w-md lg:max-w-lg'/>}
             <AccordionChakra allowToggle className="text-dodoWhite-100 w-full p-4">
                 <AccordionItem>
                     <h2>

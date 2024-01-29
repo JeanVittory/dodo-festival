@@ -60,7 +60,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates){
                                                                 if(new Date(morningEvent.date).getUTCDate().toString() === date.day){
                                                                     return (
                                                                         <article className="p-2 h-full flex flex-col gap-4" key={morningEvent.date}>
-                                                                            <Image src={`/static/${morningEvent.picture}`} alt={morningEvent.pictureAlt} width={800} height={800}/>
+                                                                            <Image src={`static/${morningEvent.picture}`} alt={morningEvent.pictureAlt} width={800} height={800}/>
                                                                             <div>
                                                                                 <p className={`${poppins700.className} text-base`}>{morningEvent.eventName}</p>
                                                                                 <p className="text-sm">{morningEvent.description}</p>
@@ -87,7 +87,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates){
                                                                     if(new Date(eveningEvent.date).getUTCDate().toLocaleString() === date.day){
                                                                         return (
                                                                             <article className="p-2 h-full flex flex-col gap-4" key={eveningEvent.date}>
-                                                                            <Image src={`/static/${eveningEvent.picture}`} alt={eveningEvent.pictureAlt} width={800} height={800}/>
+                                                                            <Image src={`static/${eveningEvent.picture}`} alt={eveningEvent.pictureAlt} width={800} height={800}/>
                                                                             <div>
                                                                                 <p className={`${poppins700.className} text-base`}>{eveningEvent.eventName}</p>
                                                                                 <p className="text-sm">{eveningEvent.description}</p>
@@ -114,7 +114,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates){
                                                                         if(new Date(nightEvent.date).getUTCDate().toLocaleString() === date.day){
                                                                             return (
                                                                                 <article className="p-2 h-full flex flex-col gap-4" key={nightEvent.date}>
-                                                                                <Image src={`/static/${nightEvent.picture}`} alt={nightEvent.pictureAlt} width={800} height={800}/>
+                                                                                <Image src={`static/${nightEvent.picture}`} alt={nightEvent.pictureAlt} width={800} height={800}/>
                                                                                 <div>
                                                                                     <p className={`${poppins700.className} text-base`}>{nightEvent.eventName}</p>
                                                                                     <p className="text-sm">{nightEvent.description}</p>
