@@ -15,7 +15,6 @@ export default function Home() {
       <Sponsors/>
       <FestivalDates dates={ dates } events={ EVENTS }/>
       <Accordion image="teatro.jpg"/>
-
     </main>
   )
 }

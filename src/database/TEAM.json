@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "name": "Bray Marcelo",
+        "lastname": "Salazar Orozco",
+        "role": "Director",
+        "bio": "Licenciado en Arte Dramático egresado de la Universidad del Valle en Cali, Colombia, Actualmente estudiante de maestría en Oratoria Y Retórica y con una especialización en gerencia de proyectos. Cuenta con una destacada trayectoria en la enseñanza de diversas disciplinas artísticas, incluyendo teatro, dramaturgia, oratoria y artes plásticas. Su sólida experiencia se extiende a la dirección y producción de montajes teatrales y espectáculos. Desarrollando su labor como docente en la Universidad de Valle sede Buga, se especializa en la gestión de proyectos, escritura de guiones, oratoria, expresión corporal y actuación. También es director artístico de la Corporación Artística Dodo.",
+        "image": "/bray.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Julián Stevan",
+        "lastname": "Benítez Ospina",
+        "role": "Producción",
+        "bio": "Soy Julián Stevan Benítez Ospina, tengo 28 años, Actor de Dodo teatro y Licenciado en Literatura de la Universidad del Valle. Docente de lengua castellana y teatro.",
+        "image": "/julian.png"
+    },
+    {
+        "id": "3",
+        "name": "Andrea",
+        "lastname": "Rodríguez Osorio",
+        "role": "Fotografía & Prensa",
+        "bio": "Andrea Rodríguez Osorio, es estudiante de Licenciatura en Literatura de la Universidad del Valle, actriz del grupo Dodo Teatro hace cinco años y fotógrafa. Sus intereses apuntan a las artes visuales, cinematográficas y escénicas. En el campo literario se inclina por la escritura creativa, crónica literaria, dramaturgia, estudios sobre la escritura de autoras latinoamericanas y estudios de literatura colombiana. En la fotografía sus preocupaciones y afinidades se encuentran en la fotografía documental y la fotografía artística, especialmente en el registro teatral o escénico. Asimismo, sus intereses se relacionan con intervenciones dirigidas a la transformación social y el impacto derivado de las acciones comunitarias.",
+        "image": "/andrea.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Juan Camilo",
+        "lastname": "González Rayo",
+        "role": "Prensa & Comunicaciones",
+        "bio": "Soy Juan Camilo González Rayo. 24 años: Tesista en Comunicación social. Actor de Dodo Teatro, fan de la creación audiovisual. A veces cantante y locutor. Enamorado de las montañas y también de hacer arte.",
+        "image": "/juan-camilo.jpeg"
+    },
+    {
+        "id": "5",
+        "name": "Jhon Armando",
+        "lastname": "Gómez Cardona",
+        "role": "Logística",
+        "bio": "Soy Jhon Armando Gómez Cardona, estudiante de 21 años cursando el tercer semestre de Comunicación Social y Periodismo en la Universidad del Valle sede Buga, es miembro activo del grupo Dodo Teatro desde hace más de 4 años. Su pasión por el teatro y lo audiovisual se refleja en su compromiso con Dodo Teatro, mientras que su interés en la gestión cultural busca llevar expresiones artísticas a lo largo y ancho del país.",
+        "image": "/jhon.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Valentina",
+        "lastname": "Caro Tigreros",
+        "role": "Logística",
+        "bio": "Valentina Caro Tigreros, 23 años, Tecnóloga en gestión de negocios, maquilladora y actriz de DODO teatro, actualmente estudiante de diseño de modas. Se ha desempeñado cómo auxiliar administrativa, coordinadora de oficina y actualmente es auxiliar de cocina. Amante de la naturaleza, los atardeceres y las papitas fritas.",
+        "image": "/valentina.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Salomé",
+        "lastname": "Cubillos Rojas",
+        "role": "Logística",
+        "bio": "Soy Salomé Cubillos Rojas. Tengo 24 años. Tesista de pregrado en Licenciatura en Literatura. Docente bilingüe. Actriz de Dodo Teatro. Cosmetóloga y maquilladora. Aspirante a pianista. Cinéfila. Artista de collage. Entusiasta del senderismo y trekking.",
+        "image": "/salome.jpg"
+    },
+    {
+        "id": "8",
+        "name": "María Camila",
+        "lastname": "Solarte Hernández",
+        "role": "Logística",
+        "bio": "Soy María Camila, tengo 24 años y soy de la ciudad de Buga, estudiante en la Universidad del Valle, dedicada a dos carreras que reflejan mi incansable búsqueda por comprender el mundo desde diferentes perspectivas: artes visuales y psicología. Integrante del colectivo de teatro Dodo Teatro. La pintura y la fotografía son los medios en los cuales plasmó mis emociones en formas visuales; encuentro serenidad en el agua a través de la natación y dejo que el alma se mueva al ritmo de la salsa.",
+        "image": "/maria-camila.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Victoria Eugenia",
+        "lastname": "Muñoz Ospina",
+        "role": "Logística",
+        "bio": "Victoria Eugenia Muñoz, 30 años, estudiante de licenciatura en historia en la universidad del valle - sede Buga. Actriz de Dodo teatro desde el 2016, actualmente dicta talleres de teatro en las promotorías de la Secretaria de Cultura.",
+        "image": "/vico.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Camilo",
+        "lastname": "Silva Soto",
+        "role": "Logística",
+        "bio": "Soy estudiante de Comunicación Social y Periodismo de la Universidad del Valle, con énfasis en audiovisuales y gestión cultural. Tiene experiencia en diferentes áreas como la música, la papiroflexia, la escritura y la fotografía. Actualmente se desenvuelve en Dodo como actor, además de apoyar con labores técnicas y de gestión de proyectos.",
+        "image": "/camilo.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Alejandro",
+        "lastname": "Sierra Uribe",
+        "role": "Logística",
+        "bio": "Soy Alejandro Sierra Uribe. Profesor de Español, Inglés, Teatro y Literatura, en búsqueda de espacios para enseñar, aprender y crear conciencia. Educador eterno y estudiante eterno. Busco hacer florecer a los demás y a mí mismo en los campos de la Educación, las Artes y las Humanidades. Licenciado en Literatura de la Universidad del Valle. Estudiante de la Maestría en Educación del Centro Europeo de Postgrados y de la Universidad CESUMA de México. Miembro activo de Dodo Teatro desde hace cinco años. Voluntario Internacional en Alemania.",
+        "image": "/alejandro.jpg"
+    }
+]
