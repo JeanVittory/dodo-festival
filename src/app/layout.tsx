@@ -21,15 +21,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} bg-dodoBlack-100`}>
+      <body className={`${inter.className} bg-dodoBlack-100`} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Marquee/>
-        <div>
+        <div style={{ flex: '1' }}>
           <Header/>
           <Providers>
             {children}
           </Providers> 
-          <Footer/>
         </div>
+        <Footer/>
       </body>
     </html>
   )
