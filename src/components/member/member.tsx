@@ -20,7 +20,7 @@ export default function Member({ name, lastname, bio, image, role}:IMember ){
                 {role}
                     <Popover placement='bottom'>
                         <PopoverTrigger>
-                                <IconButton aria-label= '' size='md' icon={ <IoIosInformationCircleOutline/>}  colorScheme='none'/>
+                            <IconButton aria-label= '' size='md' icon={ <IoIosInformationCircleOutline/>}  colorScheme='none'/>
                         </PopoverTrigger>
                         <Portal>
                             <PopoverContent>
