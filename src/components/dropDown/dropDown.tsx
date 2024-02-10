@@ -23,7 +23,7 @@ export default function Dropdown(){
                 <div className="h-[90%] w-full flex flex-col justify-center items-center  divide-y">
                     <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/team'>EQUIPO</Link></DropdownMenuLabel>
                     <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/talleres'>TALLERES</Link></DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href="/charlas">CHARLAS</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href="/contact">CONTACTO</Link></DropdownMenuLabel>
                 </div>
 
                 <DropdownMenuItem className="h-[10%] items-end gap-x-4">
