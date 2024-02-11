@@ -13,9 +13,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,6 +31,8 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
