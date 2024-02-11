@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = 'force-static';
 
 export async function POST(req:Request){
     try {
