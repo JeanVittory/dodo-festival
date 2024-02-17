@@ -3,18 +3,20 @@ import Image from 'next/image'
 export default function Goverment (){
     return (
         <section className='flex gap-7'>
-            <Image className='w-16 rounded-full' 
-                src="static/alcaldia.jpg"
+            <Image
+                src="static/alcaldia.png"
                 alt="Logo alcaldia"
-                width={675}
-                height={599}
+                width={117}
+                height={52}
             />
-            <Image className='w-16 rounded-full'
-                src="static/secretaria.jpg"
+            <Image
+                src="static/cultura.png"
                 alt="Logo secretaria"
-                width={1000}
-                height={1000}
+                width={117}
+                height={52}
             />
         </section>    
     )
 }
+//117
+//52

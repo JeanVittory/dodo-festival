@@ -1,13 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 
 import Header   from '@/components/header/header'
 import Marquee from '@/components/marquee/marquee'
 import Footer from '@/components/Footer/footer'
 import { Providers } from './providers'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Festival de teatro Buga en Escena',
@@ -21,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} bg-dodoBlack-100`} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <body className={` bg-dodoBlack-100`} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Marquee/>
         <div style={{ flex: '1' }}>
           <Header/>
