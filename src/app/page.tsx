@@ -14,7 +14,7 @@ export default function Home() {
       <HeroImageHome/>
       <Sponsors/>
       <FestivalDates dates={ dates } events={ EVENTS }/>
-      <Accordion image="teatro.jpg"/>
+      <Accordion image="FAQ.jpg"/>
     </main>
   )
 }

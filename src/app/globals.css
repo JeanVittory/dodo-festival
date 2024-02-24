@@ -5,3 +5,7 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+.error-border{
+  border: solid 2px #cc0000;
+}
