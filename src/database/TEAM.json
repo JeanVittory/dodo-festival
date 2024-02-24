@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "name": "Bray Marcelo",
+        "lastname": "Salazar Orozco",
+        "role": "Director",
+        "bio": "Licenciado en Arte Dramático egresado de la Universidad del Valle en Cali, Colombia, Actualmente estudiante de maestría en Oratoria Y Retórica y con una especialización en gerencia de proyectos. Cuenta con una destacada trayectoria en la enseñanza de diversas disciplinas artísticas, incluyendo teatro, dramaturgia, oratoria y artes plásticas. Su sólida experiencia se extiende a la dirección y producción de montajes teatrales y espectáculos. Desarrollando su labor como docente en la Universidad de Valle sede Buga, se especializa en la gestión de proyectos, escritura de guiones, oratoria, expresión corporal y actuación. También es director artístico de la Corporación Artística Dodo.",
+        "image": "/bray.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Julián Stevan",
+        "lastname": "Benítez Ospina",
+        "role": "Producción",
+        "bio": "Soy Julián Stevan Benítez Ospina, tengo 28 años, Actor de Dodo teatro y Licenciado en Literatura de la Universidad del Valle. Docente de lengua castellana y teatro.",
+        "image": "/julian.png"
+    },
+    {
+        "id": "3",
+        "name": "Andrea",
+        "lastname": "Rodríguez Osorio",
+        "role": "Fotografía & Prensa",
+        "bio": "Estudiante de último semestre de Licenciatura en Literatura de la Universidad del Valle, actriz del grupo Dodo Teatro hace cinco años y fotógrafa hace ocho años",
+        "image": "/andrea.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Juan Camilo",
+        "lastname": "González Rayo",
+        "role": "Prensa & Comunicaciones",
+        "bio": "Soy Juan Camilo González Rayo. 24 años: Tesista en Comunicación social. Actor de Dodo Teatro, fan de la creación audiovisual. A veces cantante y locutor. Enamorado de las montañas y también de hacer arte.",
+        "image": "/juan-camilo.jpeg"
+    },
+    {
+        "id": "5",
+        "name": "Jhon Armando",
+        "lastname": "Gómez Cardona",
+        "role": "Logística",
+        "bio": "21 años, actualmente estudiante de Comunicación Social y Periodismo en la Universidad del Valle y Actor en Dodo Teatro.",
+        "image": "/jhon.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Valentina",
+        "lastname": "Caro Tigreros",
+        "role": "Logística",
+        "bio": "23 años, tecnóloga en gestión de negocios, actualmente estudiante de diseño de moda, actriz y maquilladora en Dodo teatro.",
+        "image": "/valentina.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Salomé",
+        "lastname": "Cubillos Rojas",
+        "role": "Logística",
+        "bio": "24 años, Tesista en Literatura. Docente bilingüe. Actriz en Dodo Teatro, cosmetóloga, aspirante a pianista. Entusiasta del senderismo y trekking.",
+        "image": "/salome.jpg"
+    },
+    {
+        "id": "8",
+        "name": "María Camila",
+        "lastname": "Solarte Hernández",
+        "role": "Logística",
+        "bio": "Estudiante de Artes visuales y psicología en la Universidad Del Valle, Integrante de La Corporación Artística Dodo, apasionada por la pintura y el deporte.",
+        "image": "/maria-camila.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Victoria Eugenia",
+        "lastname": "Muñoz Ospina",
+        "role": "Logística",
+        "bio": "Estudiante de Licenciatura en historia octavo semestre, actriz de Dodo teatro desde el 2016, he realizado talleres con la alcaldía municipal como promotora de teatro.",
+        "image": "/vico.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Camilo",
+        "lastname": "Silva Soto",
+        "role": "Logística",
+        "bio": "Estudiante de comunicación social, interesado en la producción y diseño de proyectos culturales. Experiencia en artes escénicas, medios audiovisuales y música.",
+        "image": "/camilo.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Alejandro",
+        "lastname": "Sierra Uribe",
+        "role": "Logística",
+        "bio": "Docente de Idiomas, Teatro y Letras. Licenciado en Literatura de la Universidad del Valle. Estudiante de Maestría en Educación del Centro Europeo de Postgrados.",
+        "image": "/alejandro.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Edward Jhoan ",
+        "lastname": "Valencia Torres",
+        "role" : "Logística",
+        "bio" : "Escritor, teatrero, comunicador social y estudiante del Máster en Guión Cinematográfico y Series de Televisión en la Universidad Rey Juan Carlos (Madrid).",
+        "image" : "/edward.jpg"
+    }
+]
