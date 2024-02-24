@@ -1,3 +1,5 @@
+'use client'
+import { usePathname } from 'next/navigation'
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -6,7 +8,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { RiMenu3Fill } from "react-icons/ri";
-import { nunito800 } from "@/lib/fonts"
+import { nunito400, nunito600, nunito800 } from "@/lib/fonts"
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
@@ -14,19 +16,21 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import Link from "next/link";
 
 export default function Dropdown(){
+    const pathname = usePathname()
+    
     return (
     <DropdownMenu modal={false}>
             <DropdownMenuTrigger>
                 <RiMenu3Fill color="white" size={35}/>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className={`${nunito800.className} h-72 bg-dodoBlack-100 text-dodoWhite-100  mr-4  p-4  rounded-xl flex flex-col justify-center items-center`}>
+            <DropdownMenuContent className={`${nunito600.className} bg-dodoBlack-100 text-dodoWhite-100  mr-4  p-4  rounded-xl flex flex-col justify-center items-center`}>
                 <div className="h-[90%] w-full flex flex-col justify-center items-center  divide-y">
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/team'>EQUIPO</Link></DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href='/talleres'>TALLERES</Link></DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link href="/contact">CONTACTO</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/equipo' ? nunito800.className : ''}`} href='/equipo'>EQUIPO</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/talleres' ? nunito800.className : ''}`} href='/talleres'>TALLERES</Link></DropdownMenuLabel>
+                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/contacto' ? nunito800.className : ''}`} href="/contacto">CONTACTO</Link></DropdownMenuLabel>
                 </div>
 
-                <DropdownMenuItem className="h-[10%] items-end gap-x-4">
+                <DropdownMenuItem className="h-[10%] items-end gap-x-4 mt-5">
                     <a href="https://www.instagram.com/grupododoteatro/" target="_blank">
                         <AiOutlineInstagram color="white" size={25}/>
                     </a>

@@ -11,6 +11,13 @@ export const nunito400 = Nunito({
     display: 'swap',
     weight: "400"
 })
+
+export const nunito600 = Nunito({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: "600"
+})
+
 export const nunito700 = Nunito({
     subsets: ['latin'],
     display: 'swap',

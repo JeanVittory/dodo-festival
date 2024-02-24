@@ -5,7 +5,7 @@ interface IEmailTemplateProps {
 
 export const EmailTemplate= ({ message, email }: IEmailTemplateProps) => (
   <div>
-    <h1 >Hola Dodo, has recibido un mensaje de: {email}</h1>
+    <h1>Hola Dodo, has recibido un mensaje de: {email}</h1>
     <p>{message}</p>
   </div>
 );
