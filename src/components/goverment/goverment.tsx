@@ -9,11 +9,11 @@ export default function Goverment (){
                 width={675}
                 height={599}
             />
-            <Image className='w-16 rounded-full'
-                src="static/secretaria.jpg"
+            <Image className=''
+                src="static/bugalogocumpleaños_version2.png"
                 alt="Logo secretaria"
-                width={1000}
-                height={1000}
+                width={100}
+                height={100}
             />
         </section>    
     )
