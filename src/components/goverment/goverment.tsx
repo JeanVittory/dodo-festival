@@ -9,14 +9,12 @@ export default function Goverment (){
                 width={117}
                 height={52}
             />
-            <Image
-                src="static/cultura.png"
+            <Image className=''
+                src="static/bugalogocumpleaños_version2.png"
                 alt="Logo secretaria"
-                width={117}
-                height={52}
+                width={100}
+                height={100}
             />
         </section>    
     )
 }
-//117
-//52
