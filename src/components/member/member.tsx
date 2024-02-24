@@ -14,7 +14,7 @@ interface IMember{
 export default function Member({ name, lastname, bio, image, role}:IMember ){
     return (
         <Box>
-            <Image src={`static/${image}`} alt={name} width={300} height={300} className='rounded-full w-64 h-64 object-cover shadow-2xl'/>
+            <Image src={`static${image}`} alt={name} width={300} height={300} className='rounded-full w-64 h-64 object-cover shadow-2xl'/>
             <h3 className={`${nunito700.className} text-dodoWhite-100 text-center text-sm mt-4`}>{name} {lastname}</h3>
             <p className={`${poppins700.className} text-dodoWhite-100 text-center text-base flex justify-center items-center`}>
                 {role}
