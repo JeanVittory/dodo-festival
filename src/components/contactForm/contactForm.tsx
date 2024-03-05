@@ -72,7 +72,7 @@ export default function ContactForm(){
         let isError = false;
         if (name === 'email') isError = !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value);
         if(name === 'subject') isError = !value;
-        if(name === 'message') isError = !/^\S{4,100}$/.test(value);
+        if(name === 'message') isError = !/^[\s\S]{4,100}$/.test(value);
         setError((prevError) => ({
             ...prevError,
             [name]: isError,
