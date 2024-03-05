@@ -26,7 +26,6 @@ export default function Dropdown(){
             <DropdownMenuContent className={`${nunito600.className} bg-dodoBlack-100 text-dodoWhite-100  mr-4  p-4  rounded-xl flex flex-col justify-center items-center`}>
                 <div className="h-[90%] w-full flex flex-col justify-center items-center  divide-y">
                     <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/equipo' ? nunito800.className : ''}`} href='/equipo'>EQUIPO</Link></DropdownMenuLabel>
-                    <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/talleres' ? nunito800.className : ''}`} href='/talleres'>TALLERES</Link></DropdownMenuLabel>
                     <DropdownMenuLabel className="tracking-wider w-full text-center py-5"><Link className={`link ${pathname === '/contacto' ? nunito800.className : ''}`} href="/contacto">CONTACTO</Link></DropdownMenuLabel>
                 </div>
 

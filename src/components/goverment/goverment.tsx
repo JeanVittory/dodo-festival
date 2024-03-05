@@ -6,14 +6,16 @@ export default function Goverment (){
             <Image
                 src="static/alcaldia.png"
                 alt="Logo alcaldia"
-                width={117}
-                height={52}
+                width={88.5}
+                height={56}
+                loading='lazy'
             />
             <Image className=''
-                src="static/bugalogocumpleaños_version2.png"
+                src="static/secretaria-white.png"
                 alt="Logo secretaria"
-                width={100}
-                height={100}
+                width={160}
+                height={80}
+                loading='lazy'
             />
         </section>    
     )

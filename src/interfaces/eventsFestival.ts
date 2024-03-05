@@ -1,11 +1,15 @@
 export interface IEventsFestival{
+    id:number;
     eventName: string,
     author: string,
+    group: string,
+    director: string
     date: string,
     place: string,
-    price: number,
+    address: string,
     description: string,
     type: string,
     picture: string,
-    pictureAlt: string
+    pictureAlt: string,
+    data?: string,
 }
