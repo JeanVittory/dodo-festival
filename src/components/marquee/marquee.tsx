@@ -8,7 +8,7 @@ export default function MarqueeComponent(){
                 <div className={`w-[100%]  flex  flex-col h-10 `}>
                     <Marquee autoFill  className="bg-dodoRed-100 overflow-y-hidden" >
                         <div className="m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl">
-                            FESTIVAL PROGRAMACION 2024
+                            Programación del Festival 2024
                         </div>
                     </Marquee>
                 </div>

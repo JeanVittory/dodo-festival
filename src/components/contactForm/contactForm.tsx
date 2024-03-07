@@ -48,7 +48,6 @@ export default function ContactForm(){
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(form)
         })
-        console.log(status)
         if(status === 201){
             setForm({
                 email: "",
