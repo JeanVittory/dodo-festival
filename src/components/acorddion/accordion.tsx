@@ -22,7 +22,7 @@ export default function Accordion ({ image }:IAccordion) {
                     <h2>
                     <AccordionButton _expanded={{ color: 'white'  }}>
                         <Box className={`${poppins700.className} text-dodoWhite-100 text-base py-2`} as="span" flex='1' textAlign='center'>
-                            ¿En que lugares se realizaran las funciones?
+                            ¿En qué lugares se realizarán las funciones?
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>

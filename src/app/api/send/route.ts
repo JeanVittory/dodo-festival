@@ -15,13 +15,11 @@ export async function POST(req:Request){
             react: EmailTemplate({ message, email }),
             text: ""
         });
-        console.log(data)
         return new Response(JSON.stringify(data), {
             headers: { 'Content-type': 'application/json' },
             status: 201,
         })
     } catch (error) {
-        console.log(error)
         return Response.json({ error });
     }
 }
