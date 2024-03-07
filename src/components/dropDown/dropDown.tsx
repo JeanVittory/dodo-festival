@@ -14,6 +14,7 @@ import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Link from "next/link";
+import { WHATSAPP_PHONE } from '@/lib/constants';
 
 export default function Dropdown(){
     const pathname = usePathname()
@@ -42,7 +43,7 @@ export default function Dropdown(){
                         <AiOutlineYoutube color="white" size={25}/>
                     </a>
 
-                    <a href="https://wa.me/573007558699" target="_blank">
+                    <a href={`https://wa.me/${WHATSAPP_PHONE}`} target="_blank">
                         <AiOutlineWhatsApp color="white" size={25}/>
                     </a>
                 </DropdownMenuItem>
