@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`bg-dodoBlack-100`} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <body style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: 'rgba(2, 18, 41, 1)' }}>
         <Marquee/>
         <div style={{ flex: '1' }}>
           <Header/>
