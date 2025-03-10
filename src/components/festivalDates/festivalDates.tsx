@@ -85,6 +85,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{morningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(morningEvent.date).toLocaleDateString().toString()}</span></p>
                                                                             <p className="text-xs font-bold">Hora: <span className="text-sm font-normal">{formatTime(morningEvent.date)}</span></p>
+                                                                            <p className="text-xs font-bold">Edad: <span className="text-sm font-normal">{morningEvent.ageRestriction}</span></p>
                                                                         </div>
                                                                     </article>
                                                                 </section>
@@ -112,6 +113,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{morningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(morningEvent.date).toLocaleDateString().toString()}</span></p>
                                                                             <p className="text-xs font-bold">Hora: <span className="text-sm  font-normal">{formatTime(morningEvent.date)}</span></p>
+                                                                            <p className="text-xs font-bold">Edad: <span className="text-sm font-normal">{morningEvent.ageRestriction}</span></p>
                                                                         </div>
                                                                     </article>
                                                                 </section>
@@ -139,6 +141,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{eveningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(eveningEvent.date).toLocaleDateString().toString()}</span></p>
                                                                             <p className="text-xs font-bold">Hora: <span className="text-sm font-normal">{formatTime(eveningEvent.date)}</span></p>
+                                                                            <p className="text-xs font-bold">Edad: <span className="text-sm font-normal">{eveningEvent.ageRestriction}</span></p>
                                                                         </div>
                                                                     </article>
                                                                 </section>
@@ -167,6 +170,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{nightEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(nightEvent.date).toLocaleDateString().toString()}</span></p>
                                                                             <p className="text-xs font-bold">Hora: <span className="text-sm font-normal ">{formatTime(nightEvent.date)}</span></p>
+                                                                            <p className="text-xs font-bold">Edad: <span className="text-sm font-normal">{nightEvent.ageRestriction}</span></p>
                                                                         </div>
                                                                     </article>
                                                                 </section>
