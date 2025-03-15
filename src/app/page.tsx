@@ -12,6 +12,7 @@ export default function Home() {
   const { dates } = FESTIVAL_DATES
   
   return (
+    
     <main>      
       <HeroImageHome/>
       <BottonPushNotification/>
