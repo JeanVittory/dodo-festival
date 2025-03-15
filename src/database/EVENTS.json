@@ -36,7 +36,7 @@
         "id": 3,
         "eventName": "La Casa",
         "author": "Teatro Cazamáscaras",
-        "director": "Teatro Cazamáscaras",
+        "director": "Andrés Felipe Holguín",
         "group": "Teatro Cazamáscaras",
         "date": "2025-03-25T16:00:00Z",
         "place": "Paraninfo, Universidad del Valle seccional Buga",
@@ -52,7 +52,7 @@
         "id": 4,
         "eventName": "La zapatera prodigiosa",
         "author": "Colectivo Teatral Amaranto",
-        "director": "Colectivo Teatral Amaranto",
+        "director": "Jesús David Valencia",
         "group": "Colectivo Teatral Amaranto",
         "date": "2025-03-25T19:30:00Z",
         "place": "Teatro Municipal de Buga",
@@ -83,6 +83,23 @@
     },
     {
         "id": 6,
+        "eventName": "Conversatorio: El Teatro como herramienta pedagógica",
+        "author": "Dodo Teatro",
+        "director": "Dodo Teatro",
+        "group": "Dodo Teatro",
+        "date": "2025-03-26T08:00:00Z",
+        "place": "Teatro Municipal de Buga",
+        "address": "Calle 6 con Carrera 10",
+        "description": "N/A",
+        "ageRestriction": "Apto para todo publico",
+        "type": "talk",
+        "picture": "/elenfermoobra.jpg",
+        "pictureAlt": "Alternative Text",
+        "data": "M-1",
+        "dontShow": false
+    },
+    {
+        "id": 7,
         "eventName": "Taller miniatura títeres de cajas lambe lambe (Mágicas o misteriosas)",
         "author": "Teteutzin Artes Vivas",
         "director": "Teteutzin Artes Vivas",
@@ -99,10 +116,10 @@
         "dontShow": false
     },
     {
-        "id": 7,
+        "id": 8,
         "eventName": "Un viaje por el mar del caribe",
         "author": "ConArte",
-        "director": "ConArte",
+        "director": "Yala Rivera",
         "group": "ConArte",
         "date": "2025-03-26T14:00:00Z",
         "place": "Zona rural",
@@ -115,10 +132,10 @@
         "dontShow": false
     },
     {
-        "id": 8,
+        "id": 9,
         "eventName": "Teatro miniatura títeres de cajas lambe lambe",
         "author": "Teteutzin Artes Vivas",
-        "director": "Teteutzin Artes Vivas",
+        "director": "Perla Maria Mapula Estrada",
         "group": "Teteutzin Artes Vivas",
         "date": "2025-03-26T16:00:00Z",
         "place": "Pasillos, sede principal Universidad del Valle, seccional Buga",
@@ -131,10 +148,10 @@
         "dontShow": false
     },
     {
-        "id": 9,
+        "id": 10,
         "eventName": "La siempreviva",
         "author": "Rojo Teatro",
-        "director": "Rojo Teatro",
+        "director": "Juan Felipe Coll Garcia",
         "group": "Rojo Teatro",
         "date": "2025-03-26T19:30:00Z",
         "place": "Teatro Municipal de Buga",
@@ -147,10 +164,10 @@
         "dontShow": false
     },
     {
-        "id": 10,
+        "id": 11,
         "eventName": "Mientras el lobo no está",
         "author": "Teteutzin Artes Vivas",
-        "director": "Teteutzin Artes Vivas",
+        "director": "Perla Maria Mapula Estrada",
         "group": "Teteutzin Artes Vivas",
         "date": "2025-03-27T08:00:00Z",
         "place": "Zona urbana",
@@ -164,7 +181,7 @@
         "dontShow": false
     },
     {
-        "id": 11,
+        "id": 12,
         "eventName": "Taller: Máscaras extra-cotidianas de inculturación y aculturación",
         "author": "Hurón Teatro",
         "director": "Hurón Teatro",
@@ -181,10 +198,10 @@
         "dontShow": false
     },
     {
-        "id": 12,
+        "id": 13,
         "eventName": "Mi familia",
         "author": "DodoLab",
-        "director": "DodoLab",
+        "director": "Alejandro Sierra",
         "group": "DodoLab",
         "date": "2025-03-27T15:30:00Z",
         "place": "Paraninfo, Universidad del Valle seccional Buga",
@@ -197,10 +214,10 @@
         "dontShow": false
     },
     {
-        "id": 13,
+        "id": 14,
         "eventName": "Don Cristóbal y la Señá Rosita",
         "author": "Teatro Madre Tierra",
-        "director": "Teatro Madre Tierra",
+        "director": "Edgar Hernán Moreno Rojas",
         "group": "Teatro Madre Tierra",
         "date": "2025-03-27T19:30:00Z",
         "place": "Teatro Municipal de Buga",
@@ -213,7 +230,7 @@
         "dontShow": false
     },
     {
-        "id": 14,
+        "id": 15,
         "eventName": "Contando con Magia",
         "author": "Dodo Teatro",
         "director": "Dodo Teatro",
@@ -230,10 +247,10 @@
         "dontShow": false
     },
     {
-        "id": 15,
+        "id": 16,
         "eventName": "Clowndestinos",
         "author": "La Herejía",
-        "director": "La Herejía",
+        "director": "Evelyn Diaz Erazo",
         "group": "La Herejía",
         "date": "2025-03-28T09:00:00Z",
         "place": "Zona rural",
@@ -247,7 +264,7 @@
         "dontShow": false
     },
     {
-        "id": 16,
+        "id": 17,
         "eventName": "Taller: Máscaras extra-cotidianas de inculturación y aculturación",
         "author": "Hurón Teatro",
         "director": "Hurón Teatro",
@@ -264,7 +281,7 @@
         "dontShow": false
     },
     {
-        "id": 17,
+        "id": 18,
         "eventName": "Taller de dramaturgia",
         "author": "Edward Valencia",
         "director": "Edward Valencia",
@@ -279,7 +296,7 @@
         "dontShow": false
     },
     {
-        "id": 18,
+        "id": 19,
         "eventName": "Antigona la necia",
         "author": "Teatro el Bardo",
         "director": "Teatro el Bardo",
@@ -295,26 +312,26 @@
         "dontShow": false
     },
     {
-        "id": 19,
+        "id": 20,
         "eventName": "Cuadros teatrales",
         "author": "Deme pie",
-        "director": "Taller de Arte Dramático",
+        "director": "Julián Benítez",
         "group": "Deme pie",
         "date": "2025-03-28T17:00:00Z",
-        "place": "Funcion escolar",
+        "place": "Zona urbana",
         "address": "",
         "description": "",
         "ageRestriction": "Apto para todo publico",
-        "type": "talk",
+        "type": "play",
         "picture": "",
         "pictureAlt": "",
         "dontShow": false
     },
     {
-        "id": 20,
+        "id": 21,
         "eventName": "A la diestra de Dios padre",
         "author": "Universidad del Valle seccional Buenaventura",
-        "director": "Universidad del Valle seccional Buenaventura",
+        "director": "Johann Phillip Moreno Tejada",
         "group": "Universidad del Valle seccional Buenaventura",
         "date": "2025-03-28T19:30:00Z",
         "place": "Teatro Municipal de Buga",
@@ -327,7 +344,7 @@
         "dontShow": false
     },
     {
-        "id": 21,
+        "id": 22,
         "eventName": "Trasnochon Teatral",
         "author": "Dodo Teatro",
         "director": "Dodo Teatro",
@@ -343,7 +360,7 @@
         "dontShow": false
     },
     {
-        "id": 22,
+        "id": 23,
         "eventName": "Con mi cuerpo aprendo",
         "author": "Jesús Escandón",
         "director": "Jesús Escandón",
@@ -360,10 +377,10 @@
         "dontShow": false
     },
     {
-        "id": 23,
+        "id": 24,
         "eventName": "Crónica de una muerte anunciada",
         "author": "Universidad Antonio Nariño",
-        "director": "Universidad Antonio Nariño",
+        "director": "Carlos E. Cárdenas Avella",
         "group": "Universidad Antonio Nariño",
         "date": "2025-03-29T15:00:00Z",
         "place": "Paraninfo, Universidad del Valle",
@@ -376,10 +393,10 @@
         "dontShow": false
     },
     {
-        "id": 24,
+        "id": 25,
         "eventName": "África es mujer",
         "author": "ContArte",
-        "director": "ContArte",
+        "director": "Yala Rivera",
         "group": "ContArte",
         "date": "2025-03-29T17:00:00Z",
         "place": "Piantato",
@@ -392,10 +409,10 @@
         "dontShow": false
     },
     {
-        "id": 25,
+        "id": 26,
         "eventName": "Café oscuro",
         "author": "Hurón Teatro",
-        "director": "Hurón Teatro",
+        "director": "Sergio Naranjo",
         "group": "Hurón Teatro",
         "date": "2025-03-29T19:30:00Z",
         "place": "Teatro Municipal de Bug",
