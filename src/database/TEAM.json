@@ -136,14 +136,6 @@
         "image" : "/default-profile.png"
     },
     {
-        "id": "18",
-        "name": "Henry Alejandro",
-        "lastname":"Sierra Uribe",
-        "role":"Apoyo logístico",
-        "bio":"WIP",
-        "image" : "/default-profile.png"
-    },
-    {
         "id": "19",
         "name": "Salomé Princesa",
         "lastname":"Cubillos Rojas",
