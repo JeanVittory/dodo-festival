@@ -35,7 +35,7 @@ export default function Sponsors(){
                         <Image src='static/aliados/coffeeco.png' alt="logo coffeeco" width={240} height={902} loading='lazy'></Image>
                         <Image src='static/aliados/nomad.png' alt="logo nomad" width={240} height={902} className="h-40 w-44" loading='lazy'></Image>
                         <Image src='static/aliados/oscargarcia.png' alt="logo oscar garcia" width={240} height={902} className="w-40" loading='lazy'></Image>
-                        <Image src='static/aliados/pachamama.png' alt="logo la pachamama" width={240} height={902} className="w-40" loading='lazy'></Image>
+                        <Image src='static/aliados/pachamama-1.png' alt="logo la pachamama" width={240} height={902} className="w-40" loading='lazy'></Image>
                         <Image src='static/aliados/piantato.png' alt="logo piantato" width={240} height={902} className="w-40" loading='lazy'></Image>
                         <Image src='static/aliados/solemne.png' alt="logo solemne" width={240} height={902}className="w-40"  loading='lazy'></Image>
                         <Image src='static/aliados/sumerce.png' alt="logo glamping sumerce" width={240} height={902} className="w-40" loading='lazy'></Image>
