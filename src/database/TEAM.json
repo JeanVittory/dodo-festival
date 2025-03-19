@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Bray Marcelo",
         "lastname": "Salazar Orozco",
-        "role": "Director",
+        "role": "Director General",
         "bio": "Licenciado en Arte Dramático egresado de la Universidad del Valle en Cali, Colombia, Actualmente estudiante de maestría en Oratoria Y Retórica y con una especialización en gerencia de proyectos. Cuenta con una destacada trayectoria en la enseñanza de diversas disciplinas artísticas, incluyendo teatro, dramaturgia, oratoria y artes plásticas. Su sólida experiencia se extiende a la dirección y producción de montajes teatrales y espectáculos. Desarrollando su labor como docente en la Universidad de Valle sede Buga, se especializa en la gestión de proyectos, escritura de guiones, oratoria, expresión corporal y actuación. También es director artístico de la Corporación Artística Dodo.",
         "image": "/bray.jpg"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "name": "Julián Stevan",
         "lastname": "Benítez Ospina",
-        "role": "Producción",
+        "role": "Apoyo logístico",
         "bio": "Soy Julián Stevan Benítez Ospina, tengo 28 años, Actor de Dodo teatro y Licenciado en Literatura de la Universidad del Valle. Docente de lengua castellana y teatro.",
         "image": "/julian.png"
     },
@@ -19,14 +19,14 @@
         "id": "3",
         "name": "Andrea",
         "lastname": "Rodríguez Osorio",
-        "role": "Fotografía & Prensa",
+        "role": "Fotografía",
         "bio": "23 años, es estudiante de Licenciatura en Literatura de la Universidad del Valle, actriz del grupo Dodo Teatro hace cinco años y fotógrafa hace ocho. Sus intereses apuntan a las artes visuales, cinematográficas, escénicas y a la escritura de crónica literaria y escritura creativa.",
         "image": "/andrea.jpg"
     },
     {
         "id": "4",
         "name": "Juan Camilo",
-        "lastname": "González Rayo",
+        "lastname": "Jefe de equipo de comunicaciones",
         "role": "Prensa & Comunicaciones",
         "bio": "Soy Juan Camilo González Rayo. 24 años: Tesista en Comunicación social. Actor de Dodo Teatro, fan de la creación audiovisual. A veces cantante y locutor. Enamorado de las montañas y también de hacer arte.",
         "image": "/juan-camilo.jpeg"
@@ -35,7 +35,7 @@
         "id": "5",
         "name": "Jhon Armando",
         "lastname": "Gómez Cardona",
-        "role": "Logística",
+        "role": "Jefe de equipo técnico",
         "bio": "21 años, actualmente estudiante de Comunicación Social y Periodismo en la Universidad del Valle y Actor en Dodo Teatro.",
         "image": "/jhon.jpg"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "name": "Valentina",
         "lastname": "Caro Tigreros",
-        "role": "Logística",
+        "role": "Apoyo logístico",
         "bio": "23 años, tecnóloga en gestión de negocios, actualmente estudiante de diseño de moda, actriz y maquilladora en Dodo teatro.",
         "image": "/valentina.jpg"
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "name": "María Camila",
         "lastname": "Solarte Hernández",
-        "role": "Logística",
+        "role": "pre-registro y control asistencia",
         "bio": "Estudiante de Artes visuales y psicología en la Universidad Del Valle, Integrante de La Corporación Artística Dodo, apasionada por la pintura y el deporte.",
         "image": "/maria-camila.jpg"
     },
@@ -67,7 +67,7 @@
         "id": "9",
         "name": "Victoria Eugenia",
         "lastname": "Muñoz Ospina",
-        "role": "Logística",
+        "role": "Asistente de Bienestar",
         "bio": "Estudiante de Licenciatura en historia octavo semestre, actriz de Dodo teatro desde el 2016, he realizado talleres con la alcaldía municipal como promotora de teatro.",
         "image": "/vico.jpg"
     },
@@ -75,7 +75,7 @@
         "id": "10",
         "name": "Camilo",
         "lastname": "Silva Soto",
-        "role": "Logística",
+        "role": "Productor General",
         "bio": "Estudiante de comunicación social, interesado en la producción y diseño de proyectos culturales. Experiencia en artes escénicas, medios audiovisuales y música.",
         "image": "/camilo.jpg"
     },
@@ -94,5 +94,53 @@
         "role" : "Logística",
         "bio" : "Escritor, teatrero, comunicador social y estudiante del Máster en Guión Cinematográfico y Series de Televisión en la Universidad Rey Juan Carlos (Madrid).",
         "image" : "/edward.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Jonathan",
+        "lastname":"Grajales",
+        "role":"Fotografía",
+        "bio":"WIP",
+        "image" : "/jonathan.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Óscar Eduardo",
+        "lastname":"García Pedraza",
+        "role":"Fotografía",
+        "bio":"WIP",
+        "image" : "/oscar-garcia.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Maria Alejandra",
+        "lastname":"Vesga Parra",
+        "role":"Jefa de equipo de bienestar",
+        "bio":"WIP",
+        "image" : "/maria-alejandra.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Andreina",
+        "lastname":"Valbuena",
+        "role":"Asistente de bienestar",
+        "bio":"WIP",
+        "image" : "/andreina.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Carlos",
+        "lastname":"Arboleda",
+        "role":"Apoyo logístico",
+        "bio":"WIP",
+        "image" : "/default-profile.png"
+    },
+    {
+        "id": "19",
+        "name": "Salomé Princesa",
+        "lastname":"Cubillos Rojas",
+        "role":"Apoyo logístico",
+        "bio":"WIP",
+        "image" : "/default-profile.png"
     }
 ]

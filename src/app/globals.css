@@ -9,3 +9,7 @@ body {
 .error-border{
   border: solid 2px #cc0000;
 }
+
+.bg-custom-black {
+  background-color: rgba(2, 18, 41, 1);
+}
