@@ -31,18 +31,13 @@ export default function Dropdown(){
                 </div>
 
                 <DropdownMenuItem className="h-[10%] items-end gap-x-4 mt-5">
-                    <a href="https://www.instagram.com/grupododoteatro/" target="_blank">
+                    <a href="https://www.instagram.com/grupododo/" target="_blank">
                         <AiOutlineInstagram color="white" size={25}/>
                     </a>
                     
-                    <a href="https://www.facebook.com/dodoteatro/" target="_blank">
+                    <a href="https://www.facebook.com/corporacionartisticadodo/" target="_blank">
                         <AiOutlineFacebook color="white" size={25}/>
                     </a>
-
-                    <a href="https://www.youtube.com/channel/UCzdxtcaJ4VYXFQzZscp19hQ" target="_blank">
-                        <AiOutlineYoutube color="white" size={25}/>
-                    </a>
-
                     <a href={`https://wa.me/${WHATSAPP_PHONE}`} target="_blank">
                         <AiOutlineWhatsApp color="white" size={25}/>
                     </a>
