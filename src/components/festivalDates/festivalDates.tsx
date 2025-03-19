@@ -74,7 +74,17 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                 <section className="flex flex-col">
                                                                     <h3 className={`${poppins500.className} text-center m-0`}>MAÑANA</h3>
                                                                     <article className="p-2 h-full flex flex-col gap-4" key={morningEvent.id}>
-                                                                        <Image src={`static/${morningEvent.picture}`} alt={morningEvent.pictureAlt} width={700} height={700} />
+                                                                    { morningEvent.picture !== "Alternative Text" && (
+                                                                        <div className='w-52 h-72 overflow-hidden my-0 mx-auto'>
+                                                                            <Image 
+                                                                                src={`static/${morningEvent.picture}`} 
+                                                                                alt={morningEvent.pictureAlt} 
+                                                                                width={700} 
+                                                                                height={700} 
+                                                                                className='w-full h-full object-cover'
+                                                                            />
+                                                                        </div>
+                                                                    )}
                                                                         <div>
                                                                             <p className={`${poppins700.className} text-base`}>{morningEvent.eventName}</p>
                                                                             <p className="text-sm">{morningEvent.description}</p>
@@ -100,9 +110,17 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                 <section>
                                                                     <h3 className={`${poppins500.className} text-center m-0`}>MAÑANA</h3>
                                                                     <article className="p-2 h-full flex flex-col gap-4" >
-                                                                        <div className='w-52 h-72 overflow-hidden my-0  mx-auto'>
-                                                                            <Image src={`static/${morningEvent.picture}`} alt={morningEvent.pictureAlt} width={800} height={800} className='w-full h-full object-cover'/>
+                                                                        { morningEvent.picture !== "Alternative Text" && (
+                                                                        <div className='w-52 h-72 overflow-hidden my-0 mx-auto'>
+                                                                            <Image 
+                                                                                src={`static/${morningEvent.picture}`} 
+                                                                                alt={morningEvent.pictureAlt} 
+                                                                                width={800} 
+                                                                                height={800} 
+                                                                                className='w-full h-full object-cover'
+                                                                            />
                                                                         </div>
+                                                                    )}
                                                                         <div>
                                                                             <p className={`${poppins700.className} text-base`}>{morningEvent.eventName}</p>
                                                                             <p className="text-sm">{morningEvent.description}</p>
@@ -128,9 +146,17 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                 <section className="flex flex-col h-100">
                                                                     <h3 className={`${poppins500.className} text-center`}>TARDE</h3>
                                                                     <article className="p-2 h-full flex flex-col gap-4" key={eveningEvent.id}>
-                                                                        <div className='w-52 h-72 overflow-hidden my-0  mx-auto'>
-                                                                            <Image src={`static/${eveningEvent.picture}`} alt={eveningEvent.pictureAlt} width={800} height={800} className='w-full h-full object-cover'/>
+                                                                        { eveningEvent.picture !== "Alternative Text" && (
+                                                                        <div className='w-52 h-72 overflow-hidden my-0 mx-auto'>
+                                                                            <Image 
+                                                                                src={`static/${eveningEvent.picture}`} 
+                                                                                alt={eveningEvent.pictureAlt} 
+                                                                                width={800} 
+                                                                                height={800} 
+                                                                                className='w-full h-full object-cover'
+                                                                            />
                                                                         </div>
+                                                                    )}
                                                                         <div>
                                                                             <p className={`${poppins700.className} text-base`}>{eveningEvent.eventName}</p>
                                                                             <p className="text-sm">{eveningEvent.description}</p>
@@ -157,9 +183,17 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                 <section className="flex flex-col h-100">
                                                                     <h3 className={`${poppins500.className} text-center`}>NOCHE</h3>
                                                                     <article className="p-2 h-full flex flex-col gap-4" key={nightEvent.id}>
-                                                                        <div className='w-52 h-72 overflow-hidden my-0  mx-auto'>
-                                                                            <Image src={`static/${nightEvent.picture}`} alt={nightEvent.pictureAlt} width={700} height={700} className='w-full h-full object-cover'/>
+                                                                        { nightEvent.picture !== "Alternative Text" && (
+                                                                        <div className='w-52 h-72 overflow-hidden my-0 mx-auto'>
+                                                                            <Image 
+                                                                                src={`static/${nightEvent.picture}`} 
+                                                                                alt={nightEvent.pictureAlt} 
+                                                                                width={700} 
+                                                                                height={700} 
+                                                                                className='w-full h-full object-cover'
+                                                                            />
                                                                         </div>
+                                                                    )}
                                                                         <div>
                                                                             <p className={`${poppins700.className} text-base`}>{nightEvent.eventName}</p>
                                                                             <p className="text-sm">{nightEvent.description}</p>
