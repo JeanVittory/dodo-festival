@@ -8,7 +8,7 @@ import { Providers } from './providers'
 
 export const metadata: Metadata = {
   title: 'Festival de teatro Buga en Escena',
-  description: 'El Festival Nacional de Teatro Buga en Escena, celebra su segunda edición en el marco del Día Internacional del Teatro del 18 al 23 de marzo con invitados locales, regionales y nacionales. Buga se llena de arte y cultura por toda una semana.',
+  description: 'El Festival Nacional de Teatro Buga en Escena, celebra su tercera edición en el marco del Día Internacional del Teatro del 24 al 29 de marzo con invitados locales, regionales y nacionales. Buga se llena de arte y cultura por toda una semana.',
   metadataBase: new URL('https://www.bugaenescena.com/') 
 }
 
