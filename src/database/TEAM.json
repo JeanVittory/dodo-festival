@@ -4,7 +4,7 @@
         "name": "Bray Marcelo",
         "lastname": "Salazar Orozco",
         "role": "Director General",
-        "bio": "Licenciado en Arte Dramático egresado de la Universidad del Valle en Cali, Colombia, Actualmente estudiante de maestría en Oratoria Y Retórica y con una especialización en gerencia de proyectos. Cuenta con una destacada trayectoria en la enseñanza de diversas disciplinas artísticas, incluyendo teatro, dramaturgia, oratoria y artes plásticas. Su sólida experiencia se extiende a la dirección y producción de montajes teatrales y espectáculos. Desarrollando su labor como docente en la Universidad de Valle sede Buga, se especializa en la gestión de proyectos, escritura de guiones, oratoria, expresión corporal y actuación. También es director artístico de la Corporación Artística Dodo.",
+        "bio": "Docente de universidad del valle. Licenciado en Arte Dramático egresado de la Universidad del Valle en Cali, Colombia, Actualmente estudiante de maestría en Oratoria Y Retórica y con una especialización en gerencia de proyectos. Cuenta con una destacada trayectoria en la enseñanza de diversas disciplinas artísticas, incluyendo teatro, dramaturgia, oratoria y artes plásticas. Su sólida experiencia se extiende a la dirección y producción de montajes teatrales y espectáculos. Desarrollando su labor como docente en la Universidad de Valle sede Buga, se especializa en la gestión de proyectos, escritura de guiones, oratoria, expresión corporal y actuación. También es director artístico de la Corporación Artística Dodo.",
         "image": "/bray.jpg"
     },
     {
@@ -89,58 +89,42 @@
     },
     {
         "id": "12",
-        "name": "Edward Jhoan ",
-        "lastname": "Valencia Torres",
-        "role" : "Logística",
-        "bio" : "Escritor, teatrero, comunicador social y estudiante del Máster en Guión Cinematográfico y Series de Televisión en la Universidad Rey Juan Carlos (Madrid).",
-        "image" : "/edward.jpg"
+        "name": "Jonathan",
+        "lastname": "Grajales",
+        "role": "Fotografía",
+        "bio": "WIP",
+        "image": "/jonathan.jpg"
     },
     {
         "id": "13",
-        "name": "Jonathan",
-        "lastname":"Grajales",
-        "role":"Fotografía",
-        "bio":"WIP",
-        "image" : "/jonathan.jpg"
+        "name": "Óscar Eduardo",
+        "lastname": "García Pedraza",
+        "role": "Fotografía",
+        "bio": "WIP",
+        "image": "/oscar-garcia.jpg"
     },
     {
         "id": "14",
-        "name": "Óscar Eduardo",
-        "lastname":"García Pedraza",
-        "role":"Fotografía",
-        "bio":"WIP",
-        "image" : "/oscar-garcia.jpg"
+        "name": "Maria Alejandra",
+        "lastname": "Vesga Parra",
+        "role": "Jefa de equipo de bienestar",
+        "bio": "WIP",
+        "image": "/maria-alejandra.jpg"
     },
     {
         "id": "15",
-        "name": "Maria Alejandra",
-        "lastname":"Vesga Parra",
-        "role":"Jefa de equipo de bienestar",
-        "bio":"WIP",
-        "image" : "/maria-alejandra.jpg"
+        "name": "Andreina",
+        "lastname": "Valbuena",
+        "role": "Asistente de bienestar",
+        "bio": "WIP",
+        "image": "/andreina.jpg"
     },
     {
         "id": "16",
-        "name": "Andreina",
-        "lastname":"Valbuena",
-        "role":"Asistente de bienestar",
-        "bio":"WIP",
-        "image" : "/andreina.jpg"
-    },
-    {
-        "id": "17",
         "name": "Carlos",
-        "lastname":"Arboleda",
-        "role":"Apoyo logístico",
-        "bio":"WIP",
-        "image" : "/default-profile.png"
-    },
-    {
-        "id": "19",
-        "name": "Salomé Princesa",
-        "lastname":"Cubillos Rojas",
-        "role":"Apoyo logístico",
-        "bio":"WIP",
-        "image" : "/default-profile.png"
+        "lastname": "Arboleda",
+        "role": "Apoyo logístico",
+        "bio": "WIP",
+        "image": "/default-profile.png"
     }
 ]
