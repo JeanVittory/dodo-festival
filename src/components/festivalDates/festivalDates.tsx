@@ -91,6 +91,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                         </div>
                                                                         <div className="mt-auto">
                                                                             <p className="text-xs font-bold">{`${morningEvent.type === "play" ? 'Grupo:': 'Maestro'}`} <span className="text-sm font-normal">{morningEvent.group}</span></p>
+                                                                            {morningEvent.type === "play" && ( <p className="text-xs font-bold">Director: <span className="text-sm font-normal">{morningEvent.director}</span></p>)}
                                                                             <p className="text-xs font-bold">Lugar: <span className="text-sm font-normal">{morningEvent.place}</span></p>
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{morningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(morningEvent.date).toLocaleDateString().toString()}</span></p>
@@ -127,6 +128,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                         </div>
                                                                         <div className="mt-auto">
                                                                             <p className="text-xs font-bold">{`${morningEvent.type === "play" ? 'Grupo:': 'Maestro'}`} <span className="text-sm font-normal">{morningEvent.group}</span></p>
+                                                                            {morningEvent.type === "play" && ( <p className="text-xs font-bold">Director: <span className="text-sm font-normal">{morningEvent.director}</span></p>)}
                                                                             <p className="text-xs font-bold">Lugar: <span className="text-sm font-normal">{morningEvent.place}</span></p>
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{morningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(morningEvent.date).toLocaleDateString().toString()}</span></p>
@@ -163,6 +165,7 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                         </div>
                                                                         <div className=" mt-auto">
                                                                             <p className="text-xs font-bold">{`${eveningEvent.type === "play" ? 'Grupo:': 'Maestro'}`} <span className="text-sm font-normal">{eveningEvent.group}</span></p>
+                                                                            {eveningEvent.type === "play" && ( <p className="text-xs font-bold">Director: <span className="text-sm font-normal">{eveningEvent.director}</span></p>)}
                                                                             <p className="text-xs font-bold">Lugar: <span className="text-sm font-normal">{eveningEvent.place}</span></p>
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{eveningEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(eveningEvent.date).toLocaleDateString().toString()}</span></p>
@@ -199,7 +202,8 @@ export default function FestivalDates({ dates, events }: IFestivalDates) {
                                                                             <p className="text-sm">{nightEvent.description}</p>
                                                                         </div>
                                                                         <div className="mt-auto">
-                                                                            <p className="text-xs font-bold">{`${nightEvent.type === "play" ? 'Grupo:': 'Maestro'}`} <span className="text-sm font-normal">{nightEvent.group}</span></p>        
+                                                                            <p className="text-xs font-bold">{`${nightEvent.type === "play" ? 'Grupo:': 'Maestro'}`} <span className="text-sm font-normal">{nightEvent.group}</span></p>    
+                                                                            {nightEvent.type === "play" && ( <p className="text-xs font-bold">Director: <span className="text-sm font-normal">{nightEvent.director}</span></p>)}    
                                                                             <p className="text-xs font-bold">Lugar: <span className="text-sm font-normal">{nightEvent.place}</span></p>
                                                                             <p className="text-xs font-bold">Dirección: <span className="text-sm font-normal">{nightEvent.address}</span></p>
                                                                             <p className="text-xs font-bold">Fecha: <span className="text-sm font-normal">{new Date(nightEvent.date).toLocaleDateString().toString()}</span></p>
